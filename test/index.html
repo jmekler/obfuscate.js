@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Obfuscate.js test</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/qunit/qunit-1.11.0.js"></script>
+    <script type="text/javascript" src="../lib/obfuscate.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/qunit/qunit-1.11.0.css">
+  </head>
+  <body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture">
+      <a id="decode-href" decode="href" href="https://github.com/jmekler/obfuscate.js">obfuscate.js</a>
+      <i id="decode-text" decode="text">obfuscate.js</i>
+      <i id="decode-custom" decode="custom" custom="obfuscate.js">Decode a custom attribute.</i>
+    </div>
+    <script src="tests.js"></script>
+  </body>
+</html>
